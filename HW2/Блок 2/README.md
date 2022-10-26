@@ -1,6 +1,18 @@
+Блок 2. Работа с Hive
+
+1) Сделать таблицу artists в Hive и вставить туда значения, используя датасет
+https://www.kaggle.com/pieca111/music-artists-popularity - 15 баллов
+2) Используя Hive найти (команды и результаты записать в файл и добавить в
+репозиторий):
+a) Исполнителя с максимальным числом скробблов - 5 баллов
+b) Самый популярный тэг на ластфм - 10 баллов
+c) Самые популярные исполнители 10 самых популярных тегов ластфм - 10
+баллов
+d) Любой другой инсайт на ваше усмотрение - 10 баллов
+
+Предварительные операции: 
 
 docker cp ./artists.csv docker-hadoop-hive-parquet_namenode_1:/artists.csv
-
 
 <pre>(base) <font color="#26A269"><b>alex@alex-pc</b></font>:<font color="#12488B"><b>~/project/made/3_sem/ML_BD/HW2/HW2</b></font>$ 
 docker cp ./artists.csv docker-hadoop-hive-parquet_namenode_1:/artists.csv
@@ -48,3 +60,5 @@ Logging initialized using configuration in file:/opt/hive/conf/hive-log4j2.prope
 Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
 hive&gt; 
 </pre>
+
+Запросы и результаты их выполнения представлены в ноутбуке "Блок 2.ipynb"
