@@ -18,7 +18,6 @@ lib/
 lib64/
 parts/
 sdist/
-var/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
@@ -44,7 +43,6 @@ htmlcov/
 .coverage
 .coverage.*
 .cache
-nosetests.xml
 coverage.xml
 *.cover
 *.py,cover
