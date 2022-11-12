@@ -16,7 +16,7 @@
   ● 30% за посылку решения в течение недели после deadline  
   ● 10% за несоответствие правилам оформления задачи  
   
-Для генерации данных использовался ноутбук: [data_generator.ipynb](https://github.com/3kybika/MADE_ML_bigdata/blob/main/HW3/data_generator.ipynb)
+Для генерации данных использовался ноутбук: [data_generator.ipynb](https://github.com/3kybika/MADE_ML_bigdata/blob/main/HW3/data_generator.ipynb)  
 Для запуска линейной регресси на скале:
 ```  
 sbt > run -tr ./data/train.csv --test_path ./data/test.csv -r ./data/result.csv
@@ -30,7 +30,6 @@ App for Linear regression. Parameters:
 --learning_rate, -lr - regression learning rate, default is 0.1
 --iterations_num, -i - number of regression steps, default value is 1000
 ```
-
 Вывод программки:
 ```
 Score RMSE: 9.947487610706341
