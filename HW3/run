@@ -1,0 +1,16 @@
+[info] welcome to sbt 1.7.3 (Ubuntu Java 11.0.17)
+[info] loading global plugins from /home/alex/.sbt/1.0/plugins
+[info] loading project definition from /home/alex/project/made/3_sem/ML_BD/HW3/project
+[info] loading settings for project root from build.sbt ...
+[info] set current project to HW3 (in build file:/home/alex/project/made/3_sem/ML_BD/HW3/)
+[error] Expected symbol
+[error] Not a valid command: -
+[error] Expected end of input.
+[error] Expected '--'
+[error] Expected 'debug'
+[error] Expected 'info'
+[error] Expected 'warn'
+[error] Expected 'error'
+[error] Expected 'addPluginSbtFile'
+[error] -tr
+[error]  ^
